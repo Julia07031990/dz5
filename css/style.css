@@ -1,0 +1,135 @@
+body{
+    background-color: deeppink;
+    display: flex;
+    justify-content: center;
+}
+
+.userCardContainer{
+    height: 550px;
+    width: 400px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 7px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 200px;
+
+}
+
+
+.topHeader{
+
+
+}
+.userCardHeader{
+    height: 20px;
+    background-image: url("./../img/sky.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-spacing: 5px;
+    border: blue;
+}
+
+.userInfoContainer{
+
+}
+
+.userInfoContainer > *{
+    margin: 0 auto;
+}
+
+.profilePicture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: blue;
+    overflow: hidden;
+    margin-top: -82px;
+}
+
+.profilePicture > img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border: blue 5px;
+}
+
+.hrClass{
+    width: 340px;
+    margin-top: 50px;
+    opacity: 0.5;
+}
+.userInfoContainer > h1{
+    text-align: center;
+    margin-top: 50px;
+    color: #999999;
+    padding: inherit;
+}
+.userInfoContainer > p{
+    text-align: center;
+    margin-top: 50px;
+    color: #999999;
+    padding: inherit;
+    font-style: italic;
+}
+
+.userInfoContainer > h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #999999;
+    padding: inherit;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.iconContainer{
+    text-align: center;
+    display: inline-block;
+
+}
+
+.verticalAlign + .verticalAlign{
+    margin-left: 25px;
+}
+
+.iconContainer > img{
+    vertical-align: middle;
+}
+
+.lowClass{
+    text-align: center;
+    display: inline-block;
+
+}
+
+.verticalAlignn + .verticalAlignn {
+    margin-left: 15px;
+
+}
+
+.verticalAlign > img{
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: blue 5px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.lowClass > img {
+    vertical-align: middle;
+    width: 20px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    overflow: hidden;
+}
+
+.verticalAlign {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
