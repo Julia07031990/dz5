@@ -39,13 +39,32 @@ body{
     margin: 0 auto;
 }
 
+.anyPicture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hiddn;
+    margin-top: -5px;
+
+}
+
+.logPicture {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: deeppink;
+    overflow: hidden;
+    margin-top: -82px;
+}
 .profilePicture {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: purple;
     overflow: hidden;
-    margin-top: -82px;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 .profilePicture > img {
@@ -80,6 +99,14 @@ body{
     color: #999999;
     padding: inherit;
     font-family: 'Baloo Chettan 2', cursive;
+}
+
+.userInfoContainer > p {
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+    padding: inherit;
+    font-family: 'Montserrat', cursive;
 }
 
 .iconContainer{
